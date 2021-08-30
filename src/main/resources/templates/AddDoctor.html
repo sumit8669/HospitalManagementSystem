@@ -1,0 +1,73 @@
+<html>
+        <head>
+            <title>Add Doctor</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/adddoctor.css">
+        </head>
+<body>
+
+        <div class="aa">
+	<h2>Add Doctor</h2>
+              
+            
+	<form action="saveDoctor" method="post" enctype="multipart/form-data">
+	<br>
+		<select name="dept">
+						<option>~~Select Department~~</option>
+						<option value="Dentist"> Dentist</option>
+						<option value="Orthopedic">Orthopedic</option>
+						<option value="GeneralMedicine">GeneralMedicine</option>
+						<option value="Cardiology">Cardiology</option>
+						<option value="Neurology">Neurology</option>
+		</select><br>
+		
+	<input type="text" placeholder="Enter Name" id="email"  name="name" required="required">
+	
+	<input type="text" placeholder="Enter Doc ID" id="email"  name="docid" required="required">
+	
+	<input type="email" placeholder="Enter Email" id="email"  name="email" required="required">
+	
+	<input type="text" placeholder="Enter Mobile" id="email"  name="mobile" required="required">
+	
+	<input type="file" name="file" id="email">
+		
+		<input type="submit"  value="ADD">
+		
+	</form>
+        </div>
+	
+	</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Doctor</title>
+</head>
+<body>
+<form action="saveDoctor" method="post" enctype="multipart/form-data">
+Select Department:<select name="dept">
+						<option>---------------</option>
+						<option value="Dentist"> Dentist</option>
+						<option value="Orthopedic">Orthopedic</option>
+						<option value="GeneralMedicine">GeneralMedicine</option>
+						<option value="Cardiology">Cardiology</option>
+						<option value="Neurology">Neurology</option>
+				</select><br>
+				
+Enter Name:<input type="text" name="name" required="required"><br>
+Enter DoctorId:<input type="text" name="docid"><br>
+Enter MailId:<input type="email" name="email"><br>
+Upload Image:<input type="file" name="file"><br>
+Enter Phone Number:<input type="text" name="mobile"><br>
+<input type="submit" value="ADD">
+</form>
+
+
+</body>
+</html> -->

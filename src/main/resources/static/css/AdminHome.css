@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+
+.first
+{
+	height: 60px;
+	background-size: cover;
+	background: #400040;
+	background-position: center;
+}
+
+
+.login_ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+
+.login_ul .login_li
+{
+	display: inline-block;
+}
+
+
+.login_ul .login_li a
+{
+	float: right;
+	text-decoration: none;
+	color: white;
+	font-size:  20px;
+	padding: 3px 12px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	margin-right: 30px;
+}
+
+.login_ul .login_li a:hover
+{ 	
+	background-color: white;
+	color: black;
+	transition: 0.6s ease;
+}
+
+label
+{
+	font-size: 30px;
+	font-weight: bolder;
+	font-style: italic;
+	color: whitesmoke;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+
+.ul2
+{
+	float: right;
+	list-style-type: none;
+	
+}
+
+
+.ul2 .li2
+{
+	display: inline-block;
+	margin-top: 5px;
+}
+
+
+.ul2 .li2 a
+{
+	text-decoration: none;
+	color: black;
+	font-size:  15px;
+	padding: 3px 15px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	
+}
+
+.ul2 .li2 a:hover
+{ 	
+	background-color: black;
+	color: white;
+	transition: 0.6s ease;
+}
+
+.second
+{
+	height: 40px;
+	background-size: cover;
+	background: #ffff80;
+	border-bottom: khaki;
+}
+
+
+.fourth
+{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../image/hospital.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 87vh;
+}
+  
+ 
+.total-div
+{
+	margin-top: 30px;
+	margin-left: 90px;
+	margin-right: 90px;
+	border-radius: 12px;
+	padding: 50px;
+	background: rgba(0,0,0,0.5);
+	height: 1000px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;  
+  	scrollbar-width: none;  
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.total-div::-webkit-scrollbar 
+{
+	display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.total-div 
+{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.order
+{
+	margin-left: auto;
+	margin-right: auto; 
+	width: 1200px;
+	height: 350px;
+	size: fixed;
+	background: rgba(228, 225, 225, 0.5);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.one
+{
+	margin-left: 80px;
+	height: 320px;
+	size: fixed;
+	width: 120px;
+	overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.one::-webkit-scrollbar 
+{
+	display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.one
+{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.one-main
+{
+	margin-top: -300px;
+	margin-left: 220px;
+	height: 320px;
+	width: 900px;
+	
+}
+
+.first-image
+{
+	
+	margin-bottom: 100px;
+
+}
+
+ img
+ {	
+	margin-top: 20px;
+	border-style:inset;
+	border-radius:10px;
+} 
+
+
+.book
+{
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	font-size:  15px;
+	padding: 3px 15px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	margin-left: 70px;
+	margin-bottom: 70px;
+}
+
+.details_ul
+{
+	float: right;
+	list-style-type: none;
+	
+}
+
+
+.details_ul .details_li
+{
+	margin-top: 15px;
+}
+
+
+.details_ul .details_li label
+{
+	margin-right: 300px;
+	text-decoration: none;
+	color: black;
+	padding: 3px 15px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	
+}
+.name
+{
+	font-size: 30px;
+}
+
+.service, .time
+{
+	font-size: 20px;
+}
+ul
+{
+	float: left;
+	list-style-type: none;
+	margin-top: 6px;
+}
+
+
+ul li
+{
+	display: inline-block;
+}
+
+
+ul li p
+{
+	float: left;
+	text-decoration: none;
+	color: black;
+	font-size:  30px;
+	padding: 4px 28px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	margin-right: 30px;
+}
+
+ul li p:hover
+{ 	
+	background-color: red;
+	color: white;
+	transition: 0.6s ease;
+}
+
+button
+{
+	padding: 5px;
+	margin-right: 20px;
+	margin-top: 40px;
+	font-size:  30px;
+	float: right;
+	border: none;
+	transition: 0.6s ease;
+	color: black;
+	background-color: rgb(16, 216, 16);
+
+}
+
+button:hover
+{
+	background-color:black;
+	color: white;
+	transition: 0.6s ease;
+}
+
+#link
+{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    color: grey;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
